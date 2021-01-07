@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/jasonyz500/lyrics-svc#readme",
   "dependencies": {
-    "@hapi/hapi": "^20.0.3"
+    "@hapi/hapi": "^20.0.3",
+    "lodash": "^4.17.20"
   }
 }
