@@ -1,0 +1,24 @@
+{
+  "name": "lyrics-svc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon lib/server.js",
+    "start-prod": "node lib/server.js",
+    "test": "lab --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonyz500/lyrics-svc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasonyz500/lyrics-svc/issues"
+  },
+  "homepage": "https://github.com/jasonyz500/lyrics-svc#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.0.3"
+  }
+}
