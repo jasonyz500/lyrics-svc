@@ -1,5 +1,5 @@
 create table songs (
-	id int primary key,
+	id int not null auto_increment primary key,
 	artist_id int not null,
 	name_kana varchar(100) not null,
 	name_rom varchar(100) not null,
@@ -10,7 +10,7 @@ create table songs (
 );
 
 create table artists (
-	id int primary key,
+	id int not null auto_increment primary key,
 	name_kana varchar(50) not null,
 	name_rom varchar(50) not null
 );
