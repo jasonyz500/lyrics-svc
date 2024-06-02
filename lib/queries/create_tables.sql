@@ -5,7 +5,7 @@ create table songs (
 	name_rom varchar(100) not null,
 	name_en varchar(100) not null,
 	youtube_link varchar(50),
-	spotify_link varchar(50),
+	spotify_link varchar(100),
 	notes tinytext
 );
 
